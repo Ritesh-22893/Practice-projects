@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+  <div class="main">
+
+    <button class="home">HOME</button>
+   
+    <button class="planeticon" onclick="planetlist()">PLANET</button>
+
+    <div id="planettab" style="display: none;">
+
+        <div class="firstplanet">
+            <a class="one" href="https://en.wikipedia.org/wiki/mercury" target="_blank" >Mercury</a> 
+          </div>
+
+        <div class="secondplanet">
+          <a class="two" href="https://en.wikipedia.org/wiki/v enus" target="_blank"   >Venus</a> 
+        </div>
+
+        <div class="thirdplanet">
+          <a class="three" href="https://en.wikipedia.org/wiki/earth" target="_blank" >Earth</a> 
+        </div>
+
+        <div class="fourthplanet">
+          <a class="four" href="https://en.wikipedia.org/wiki/mars" target="_blank" >Mars</a> 
+        </div>
+
+         <div class="fifthplanet">
+          <a class="five" href="https://en.wikipedia.org/wiki/jupiter" target="_blank" >Jupiter</a> 
+         </div>
+
+         <div class="sixthplanet">
+          <a class="six" href="https://en.wikipedia.org/wiki/saturn" target="_blank" >Saturn</a> 
+         </div>
+
+         <div class="seventhplanet">
+          <a class="seven" href="https://en.wikipedia.org/wiki/uranus" target="_blank" >Uranus</a> 
+         </div>
+
+         <div class="eightplanet">
+          <a class="eight" href="https://en.wikipedia.org/wiki/neptune" target="_blank" >Neptune</a> 
+         </div>
+        </div>
+  </div>
+
+  <script>
+    function planetlist()
+    {
+        var change = document.getElementById("planettab");
+        if(change.style.display=="none")
+        {
+          change.style.display="block";
+        }
+        else
+        {
+          change.style.display="none";
+        }
+    }
+  </script>
+
+<button class="extra">EXTRA</button>
+
+<button class="source">SOURCE</button>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .btn{
+        color:blue;
+        background-color: aqua;
+        height: 30px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+<body>
+<!--     
+    Browser Events in JS :
+  
+        clicking
+        contextmenu
+        mouseover/mouseout
+        mousedown/mouseup
+        mousemove
+
+        submit 
+        focus
+
+        DOMcontentloaded
+        transitionend -->
+     
+      <div class="texts">
+        <h1> JUST learning... </h1>
+        <p id="par"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sequi rem similique suscipit doloribus quia repudiandae perspiciatis dolor odit nobis laudantium, aspernatur atque inventore adipisci perferendis repellendus rerum expedita doloremque blanditiis fuga molestiae voluptatibus dolorem. Doloribus blanditiis voluptate atque ipsam?</p>
+      </div>
+      <button class="btn" on="hide()" >SHOW/HIDE</button>
+      <script>
+        function hide(){
+            var a=document.getElementById('par');
+            alert('no text')
+          if(a.style.display=="block"){
+                a.style.display = "none"
+          }
+          else{
+          a.style.display="block"
+        }
+    }
+      </script>
+</body>
+</html>

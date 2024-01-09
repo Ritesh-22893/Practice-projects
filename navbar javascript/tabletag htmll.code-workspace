@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../tabletag htmll"
+		},
+		{
+			"path": "../javascript w3school"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../fb sign up page html"
+		},
+		{
+			"path": "../my-app/node_modules"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "navbar javascript"
+	}
+}

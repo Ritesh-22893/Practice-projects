@@ -1,0 +1,16 @@
+table,tr,th, td { 
+border: 1px solid black;
+border-collapse: collapse;
+/* padding-left: 200px; */
+background-color: yellowgreen;
+text-align: center;
+width: 700px;
+color: darkblue;
+border-width: 2px;
+}
+
+
+.tabling{
+
+margin-top: 400px;
+}

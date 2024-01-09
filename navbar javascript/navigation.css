@@ -1,0 +1,155 @@
+body{
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpapersden.com%2Fimage%2Fdownload%2Fminimal-planet-red-background_a2hqaWmUmZqaraWkpJRmaGtrrWxrbQ.jpg&f=1&nofb=1&ipt=321a11bc903bbf7932873cce7609d0adde9d272966d2eee105d5169af64bdb22&ipo=images');
+}
+
+.main{
+    margin-top: 34px;
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+}
+.home{
+    color: rgb(241, 243, 219);
+    background-color: rgb(82, 18, 124);
+    font-size: 30px;
+    font-family:sans-serif;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+.planeticon{
+    color: rgb(241, 243, 219);
+    background-color: rgb(82, 18, 124);
+    font-size: 30px;
+    font-family:sans-serif;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+
+}
+#planettab{
+    text-align:center;
+    font-size: 22px;
+    font-family: monospace;
+    color: rgb(155, 25, 25);
+    border: 3px solid rgb(126, 126, 28);
+    border-radius: 7px;
+    background-color: rgba(253, 253, 253, 0.753);
+    box-shadow: 1px 1px 1px 1px;
+    width: 150px;
+    position: absolute;
+    top: 105px;
+    left:247px ;
+
+}
+.firstplanet{
+    font-weight: 700;
+    border: 3px solid rgb(23, 41, 97);
+}
+.one{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.secondplanet{
+    font-weight: 700;
+    border: 3px solid black;
+    border-top: 0px;
+}
+.two{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.thirdplanet{
+    font-weight: 700;
+    border: 3px solid black;
+    border-top: 0px;
+}
+.three{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.fourthplanet{
+    font-weight: 700;
+    border: 3px solid black;
+    border-top: 0px;
+}
+.four{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.fifthplanet{
+    font-weight: 700;
+    border: 3px solid black;
+    border-top: 0px;
+}
+.five{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.sixthplanet{
+    font-weight: 700;
+    border: 3px solid black;
+    border-top: 0px;
+}
+.six{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.seventhplanet{
+    font-weight: 700;
+    border: 3px solid black;
+    border-top: 0px;
+}
+.seven{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.eightplanet{
+    font-weight: 700;
+    border: 3px solid black;
+    border-top: 0px;
+}
+.eight{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+
+.extra{
+    color: rgb(241, 243, 219);
+    background-color: rgb(82, 18,124);
+    font-size: 30px;
+    font-family:sans-serif;
+    border-radius: 7px;
+    position: absolute;
+    top: 54px;
+    right: 75px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+.source{
+    color: rgb(241, 243, 219);
+    background-color: rgb(82, 18,124);
+    font-size: 30px;
+    font-family:sans-serif;
+    border-radius: 7px;
+    position: absolute;
+    top: 54px;
+    right: 250px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}

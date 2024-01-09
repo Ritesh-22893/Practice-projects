@@ -1,0 +1,45 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8oUp2G9Swkwz7Qe6wxyKlr5QD9woiPEDeZA&usqp=CAU');
+
+}
+.core{
+    /* background-image: /home/ritesh/Downloads;
+    background-image: url('/home/ritesh/Downloads'); */
+    /* padding: 80px; */
+    display: flex;
+    gap:40px;
+    /* padding: 80px; */
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.home{
+  color: gold;
+  font-size: 30px;
+  background-color: lightseagreen   ;
+  border-radius: 7px;
+
+}
+.menu{
+    color: gold;
+    font-size: 30px;
+    background-color: lightseagreen ;
+    border-radius: 7px;
+}
+
+
+.aboutus{
+    color: gold;
+    font-size: 30px;
+    margin-left: 550px;
+    background-color: lightseagreen ;
+    border-radius: 7px;
+}
+
+    
+.contactus{
+    color: gold;
+    font-size: 30px;
+    background-color: lightseagreen ;
+    border-radius: 7px;
+
+}

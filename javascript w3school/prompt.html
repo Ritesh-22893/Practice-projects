@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="name"></p>
+    <script>
+    
+var inputArray = [];
+var size;//Maximum Array size
+size = prompt ("enter size" )
+
+for(var i=0; i<size;i++){
+	//Taking Input from user
+	inputArray[i] = prompt( 'Enter Element ' + (i+1))
+}
+
+//Print the array in the console.
+// console.log(inputArray);
+inputArray.sort()
+document.getElementById('name').innerHTML=inputArray
+
+    </script>
+</body>
+</html>

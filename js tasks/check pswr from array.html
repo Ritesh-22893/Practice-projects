@@ -1,0 +1,29 @@
+<!-- to check password if correct or not from array values --> 
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pswrd" style="display: none;">hello</p>
+    <script>
+    alert('password is of 5 letters') 
+    alert('you get 10 attempts ')                                                                                                                                                                                                              
+        var i,s;
+        for(i=0;i<10;i++)
+        {
+            s = prompt('Enter password until it matches')
+            if(s=='hello'){
+                document.write('password match in '+ (i+1) +' attempt .' )
+                break;
+            }
+            else
+            document.write('password didnt match in ' + (i+1) + ' attempt .    ')   
+        }
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h2>Creating a dropdown list.</h2>
+    <select id="dropdown" onclick="dropdownlist()">
+      <option value="option0">Choose</option>
+      <option value="option1">Home</option>
+      <option value="option2">Menu</option>
+      <option value="option3">Login</option>
+    </select>
+    
+    <script>
+      function dropdownlist() {
+        var a = document.getElementById("dropdown");
+        document.getElementById("new").value = a.options[a.selectedIndex].text;
+      }
+    </script>
+  
+    <br><br>
+    <b>selected item appears here</b> 
+    <input id="new" type="text">
+  </body>
+ </html>
+ 
+ 
+    
